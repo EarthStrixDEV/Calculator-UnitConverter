@@ -1,0 +1,49 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+fieldset {
+    padding: 2.5rem;
+}
+
+fieldset legend {
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+fieldset input {
+    width: 30%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 20px;
+}
+
+fieldset input:focus {
+    outline:black;
+}
+
+fieldset label {
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+button {
+    width: 8%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 20px;
+}
+
+button:hover {
+    box-shadow: 0 0 0.25rem 0.25rem #ccc;
+}
+
+button:active {
+    background-color: rgb(116, 116, 116);
+}
