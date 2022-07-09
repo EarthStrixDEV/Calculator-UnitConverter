@@ -1,19 +1,26 @@
 {
-  "name": "web_a",
+  "name": "geometry-calculator",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is Mini Project Web App ,I have created this project for development skill programming &amp; Web Development",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "s": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EarthStrixDEV/Geometry-Calculator.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EarthStrixDEV/Geometry-Calculator/issues"
+  },
+  "homepage": "https://github.com/EarthStrixDEV/Geometry-Calculator#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "http": "^0.0.1-security",
     "nodemon": "^2.0.19"
   }
 }
