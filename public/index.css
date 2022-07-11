@@ -2,10 +2,15 @@ body {
     width: 70%;
     margin: 0 auto;
     padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+p , h1 ,legend ,label ,b{
+    color: #f5f5f5;
 }
 
 fieldset {
-    padding: 2.5rem;
+    padding: 1.7rem;
 }
 
 fieldset legend {
