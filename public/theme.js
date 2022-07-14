@@ -26,7 +26,7 @@ white_theme_button.addEventListener("click", () => {
     body.style.backgroundColor = "white";
     body.style.color = "black";
     white_theme_button.style.display = "none";
-    dark_theme_button.style.display = "block";
+    dark_theme_button.style.display = "inline-block";
 })
 
 dark_theme_button.addEventListener("click", () => {
@@ -35,18 +35,18 @@ dark_theme_button.addEventListener("click", () => {
     });
     h1.forEach(function (element) {
         element.style.color = "white";
-    }   );
+    });
     legend.forEach(function (element) {
         element.style.color = "white";
-    }   );
+    });
     label.forEach(function (element) {
         element.style.color = "white";
-    }   );
+    });
     b.forEach(function (element) {
         element.style.color = "white";
-    }   );
+    });
     body.style.backgroundColor = "black";
     body.style.color = "white";
-    white_theme_button.style.display = "block";
+    white_theme_button.style.display = "inline-block";
     dark_theme_button.style.display = "none";
 })
