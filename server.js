@@ -13,4 +13,5 @@ app.use('/unit-converter', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'unit-converter.html'))
 })
 
-app.listen(port ,() => console.log(`Server started on port ${port}`))
+app.listen(port, () => console.log(`Server started on port ${ port }`))
+    .then(err => console.log(err))
